@@ -33,7 +33,7 @@ function App() {
     e.preventDefault();
     async function uploadData() {
       console.log(inputValue);
-      const response = await fetch("http://localhost:8082/chat", {
+      const response = await fetch("https://chatbot-back-ja86.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
