@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd test && build"
+    "build": "cd test && npm run build"
   },
   "keywords": [],
   "author": "",
